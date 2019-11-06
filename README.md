@@ -1,5 +1,5 @@
-#遇到的问题
-*使用npm run dev 运行PC端项目时，报错： “‘webpack-dev-server’ 不是内部或外部命令，也不是可运行的程序 或批处理文件。”
+# 遇到的问题
+* 使用npm run dev 运行PC端项目时，报错： “‘webpack-dev-server’ 不是内部或外部命令，也不是可运行的程序 或批处理文件。”
     >'webpack-dev-server' 不是内部或外部命令，也不是可运行的程序
 或批处理文件。
 npm ERR! code ELIFECYCLE
@@ -18,15 +18,15 @@ npm ERR! C:\Users\lara\AppData\Roaming\npm-cache\_logs\2018-06-12T09_40_42_892Z-
 原文链接：https://blog.csdn.net/Xumuyang_/article/details/96140396
 #解决办法
 解决办法
-*1、安装依赖包
+* 1、安装依赖包
     >npm install
-*2、运行npm run bulid  
+* 2、运行npm run bulid  
     >npm run build
-*3、运行
+* 3、运行
     >npm run dev
-*几秒钟后，就可以打开localhost:8080 了。
-#git基本命令
-*git add .        （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）
-*git commit  -m  "提交信息"  （注：“提交信息”里面换成你需要，如“first commit”）
-*git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
+* 几秒钟后，就可以打开localhost:8080 了。
+# git基本命令
+* git add .        （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）
+* git commit  -m  "提交信息"  （注：“提交信息”里面换成你需要，如“first commit”）
+* git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
 
